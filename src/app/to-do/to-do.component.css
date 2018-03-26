@@ -1,0 +1,10 @@
+.todoCard {
+  top: 20px;
+  left: 500px;
+  text-align: center;
+  width: 350px;
+}
+
+.todoList {
+  text-align: left;
+}

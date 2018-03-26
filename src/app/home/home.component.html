@@ -1,0 +1,11 @@
+<mat-card raised class="homeCard">
+  <mat-card-title>
+    <span>Welcome!</span>
+  </mat-card-title>
+  <mat-card-content>
+    <input matInput [(ngModel)]="name" placeholder="Enter your Name" type="text">
+    <br>
+    <br>
+    <button mat-button type="button" name="button" routerLink='/to-do' style="background-color:green; color:white" (click)=sendName()> Go </button>
+  </mat-card-content>
+</mat-card>
